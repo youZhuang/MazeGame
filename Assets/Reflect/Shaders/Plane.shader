@@ -12,7 +12,7 @@
         // No culling or depth
         Pass
         {
-			Cull Front
+			Cull Back
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -53,7 +53,7 @@
 
 		Pass
         {
-			Cull Back
+			Cull Front
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
